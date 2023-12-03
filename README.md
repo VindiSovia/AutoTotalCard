@@ -4,16 +4,15 @@
 Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
 
 ## Contributor
-| --- | --- | --- | --- | --- |
-| Full Name | Affiliation | Email | LinkedIn | Role |
-| M. Haswin Anugrah Pratama | Startup Campus, AI Track | --- | [link](https://www.linkedin.com/in/haswinpratama/) | Supervisor |
-| Aditia Taqi Pratama | Universitas Negeri Jakarta | aditaqipratama.0608@gmail.com | [link](http://www.linkedin.com/in/aditaqip) | Team Lead |
-| Ardis Hibatul Hakim | Universitas Gunadarma | ardishakim@gmail.com | [link](https://www.linkedin.com/in/ardis-hibatul-hakim/) | Team Member |
-| Kinanthi Putri Siwilopo | Universitas Amikom Purwokerto | putkinanthi123@gmail.com | [link](https://www.linkedin.com/in/kinanthi-putri-siwilopo-b88b9b217/) |Team Member |
-| Maharani Ria Sina | Univeritas Sebelas Maret Surakarta | maharaniria281@gmail.com | [link](https://www.linkedin.com/in/maharani-ria-sina-893620237/) | Team Member |
-| Vindi Sovia Anggita | Politeknik Negeri Malang | vindisovia21@gmail.com | [link](https://www.linkedin.com/in/vindi-sovia-anggita/) | Team Member |
-| Ahmad Yudiman Fauzi | Universitas Garut | ozzifauzi9@gmail.com | [link](https://www.linkedin.com/in/ahmad-yudiman-fauzi-02665a22a/) | Team Member|
-| Nicholas Dominic | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/nicholas-dominic) | Supervisor |
+| Full Name                | Affiliation                       | Email                          | LinkedIn                                       | Role          |
+|--------------------------|-----------------------------------|--------------------------------|------------------------------------------------|---------------|
+| M. Haswin Anugrah Pratama| Startup Campus, AI Track          | ---                            | [Haswin Pratama](https://www.linkedin.com/in/haswinpratama/)   | Supervisor |
+| Aditia Taqi Pratama      | Universitas Negeri Jakarta         | aditaqipratama.0608@gmail.com | [Aditia Taqi](http://www.linkedin.com/in/aditaqip)             | Team Lead  |
+| Ardis Hibatul Hakim      | Universitas Gunadarma              | ardishakim@gmail.com | [Ardis Hibatul Hakim](https://www.linkedin.com/in/ardis-hibatul-hakim/) | Team Member |
+| Kinanthi Putri Siwilopo  | Universitas Amikom Purwokerto      | putkinanthi123@gmail.com | [Kinanthi Putri Siwilopo](https://www.linkedin.com/in/kinanthi-putri-siwilopo-b88b9b217/) | Team Member  |
+| Maharani Ria Sina     | Universitas Sebelas Maret Surakarta| maharaniria281@gmail.com | [Maharani Ria Sina](https://www.linkedin.com/in/maharani-ria-sina-893620237/) | Team Member |
+| Vindi Sovia Anggita      | Politeknik Negeri Malang        | vindisovia21@gmail.com | [Vindi Sovia Anggita](https://www.linkedin.com/in/vindi-sovia-anggita/) | Team Member |
+| Ahmad Yudiman Fauzi      | Universitas Garut               | ozzifauzi9@gmail.com | [Ahmad Yudiman Fauzi](https://www.linkedin.com/in/ahmad-yudiman-fauzi-02665a22a/) | Team Member |
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
