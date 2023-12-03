@@ -1,4 +1,4 @@
-# FINAL PROJECT TITLE HERE
+# “Auto Total Card” Keranjang Penghitung Otomatis
 
 ## Project Description
 Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
@@ -7,9 +7,9 @@ Please describe your Startup Campus final project here. You may should your <b>m
 | Full Name                | Affiliation                       | Email                          | LinkedIn                                       | Role          |
 |--------------------------|-----------------------------------|--------------------------------|------------------------------------------------|---------------|
 | M. Haswin Anugrah Pratama| Startup Campus, AI Track          | ---                            | [Haswin Pratama](https://www.linkedin.com/in/haswinpratama/)   | Supervisor |
-| Aditia Taqi Pratama      | Universitas Negeri Jakarta         | aditaqipratama.0608@gmail.com | [Aditia Taqi](http://www.linkedin.com/in/aditaqip)             | Team Lead  |
-| Ardis Hibatul Hakim      | Universitas Gunadarma              | ardishakim@gmail.com | [Ardis Hibatul Hakim](https://www.linkedin.com/in/ardis-hibatul-hakim/) | Team Member |
-| Kinanthi Putri Siwilopo  | Universitas Amikom Purwokerto      | putkinanthi123@gmail.com | [Kinanthi Putri Siwilopo](https://www.linkedin.com/in/kinanthi-putri-siwilopo-b88b9b217/) | Team Member  |
+| Aditia Taqi Pratama      | Universitas Negeri Jakarta        | aditaqipratama.0608@gmail.com | [Aditia Taqi](http://www.linkedin.com/in/aditaqip)             | Team Lead  |
+| Ardis Hibatul Hakim      | Universitas Gunadarma             | ardishakim@gmail.com | [Ardis Hibatul Hakim](https://www.linkedin.com/in/ardis-hibatul-hakim/) | Team Member |
+| Kinanthi Putri Siwilopo  | Universitas Amikom Purwokerto | putkinanthi123@gmail.com | [Kinanthi Putri Siwilopo](https://www.linkedin.com/in/kinanthi-putri-siwilopo-b88b9b217/) | Team Member  |
 | Maharani Ria Sina     | Universitas Sebelas Maret Surakarta| maharaniria281@gmail.com | [Maharani Ria Sina](https://www.linkedin.com/in/maharani-ria-sina-893620237/) | Team Member |
 | Vindi Sovia Anggita      | Politeknik Negeri Malang        | vindisovia21@gmail.com | [Vindi Sovia Anggita](https://www.linkedin.com/in/vindi-sovia-anggita/) | Team Member |
 | Ahmad Yudiman Fauzi      | Universitas Garut               | ozzifauzi9@gmail.com | [Ahmad Yudiman Fauzi](https://www.linkedin.com/in/ahmad-yudiman-fauzi-02665a22a/) | Team Member |
@@ -40,7 +40,6 @@ Describe your dataset information here. Provide a screenshot for some of your da
 ### Model Performance
 Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
 ![results](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/910b66f4-a0c9-4c5d-8369-9fbf70734bea)
-![confusion_matrix](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/f7edb61e-f38a-43b7-aebe-18924fe34561)
 ![confusion_matrix_yolov5](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/71f8461e-8dd6-4163-a068-61d03b34a556)
 ![confusion_matrix_yolo7](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/fd183f3e-ee3b-4b6a-aadd-99de6ec59c22)
 ![PR_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/bb854481-ea16-42c7-9745-3a1018b52eb1)
