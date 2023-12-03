@@ -4,7 +4,6 @@
 Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
 
 ## Contributor
-| | |
 | --- | --- | --- | --- | --- |
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | M. Haswin Anugrah Pratama | Startup Campus, AI Track | --- | [link](https://www.linkedin.com/in/haswinpratama/) | Supervisor |
