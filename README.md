@@ -5,12 +5,13 @@ Please describe your Startup Campus final project here. You may should your <b>m
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
-| --- | --- | --- | --- | --- |
-| ... | ... | ... | ... | Team Lead |
-| ... | ... | ... | ... | Team Member |
-| ... | ... | ... | ... |Team Member |
-| ... | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
+| M. Haswin Anugrah Pratama | Startup Campus, AI Track | --- | [link](https://www.linkedin.com/in/haswinpratama/) | Supervisor |
+| Aditia Taqi Pratama | Universitas Negeri Jakarta | aditaqipratama.0608@gmail.com | [link](http://www.linkedin.com/in/aditaqip) | Team Lead |
+| Ardis Hibatul Hakim | Universitas Gunadarma | ardishakim@gmail.com | [link](https://www.linkedin.com/in/ardis-hibatul-hakim/) | Team Member |
+| Kinanthi Putri Siwilopo | Universitas Amikom Purwokerto | putkinanthi123@gmail.com | [link](https://www.linkedin.com/in/kinanthi-putri-siwilopo-b88b9b217/) |Team Member |
+| Maharani Ria Sina | Univeritas Sebelas Maret Surakarta | maharaniria281@gmail.com | [link](https://www.linkedin.com/in/maharani-ria-sina-893620237/) | Team Member |
+| Vindi Sovia Anggita | Politeknik Negeri Malang | vindisovia21@gmail.com | [link](https://www.linkedin.com/in/vindi-sovia-anggita/) | Team Member |
+| Ahmad Yudiman Fauzi | Universitas Garut | ozzifauzi9@gmail.com | [link](https://www.linkedin.com/in/ahmad-yudiman-fauzi-02665a22a/) | Team Member|
 | Nicholas Dominic | Startup Campus, AI Track | nic.dominic@icloud.com | [link](https://linkedin.com/in/nicholas-dominic) | Supervisor |
 
 ## Setup
@@ -33,7 +34,7 @@ Please describe your Startup Campus final project here. You may should your <b>m
 
 ## Dataset
 Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
-- Link: https://...
+- Link: [https://...](https://app.roboflow.com/finalproject-uucte/keranjang-deteksi/16)
 
 ## Results
 ### Model Performance
@@ -77,20 +78,27 @@ Describe and show how you deploy this project (e.g., using Streamlit or Flask), 
 
 ## Supporting Documents
 ### Presentation Deck
-- Link: https://...
+- Link: [https://...](https://www.canva.com/design/DAF0gqaiBM4/wF7b4IWyKLsN5bwico1WuQ/edit)
 
 ### Business Model Canvas
 Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
+![image](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/c9dc0e7b-6ece-4d2b-bca7-2d1c6223b221)
+![image](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/f8946bab-d68b-43d7-9b09-c690854d8535)
+![image](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/8f08e275-96a2-4275-a64e-0c0a6cb69ee4)
+![image](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/5c7ef3a1-e1e8-4c55-a265-e5b2f50354ca)
+
 
 ### Short Video
 Provide a link to your short video, that should includes the project background and how it works.
-- Link: https://...
+- Link: [https://...](https://drive.google.com/file/d/12eAYVySzJIBRrIhakdJoGINoz6rko_WW/view?usp=drivesdk)
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
-- Link: https://...
-- Link: https://...
-- Link: https://...
+- Link: [https://...](https://github.com/ultralytics/yolov5)
+- Link: [https://...](https://www.businessinsider.com/how-british-startup-helped-uk-largest-retailers-luxury-improve-sales-2021-1)
+- Link: [https://...](https://ieeexplore.ieee.org/Xplore/home.jsp)
+- Link: [https://...](https://www.annualreports.com/HostedData/AnnualReportArchive/r/NYSE_RBS_2018.pdf)
+- Link: [[https://...](https://www.statista.com/statistics/617136/digital-population-worldwide/#:~:text=Worldwide%20digital%20population%202023&text=As%20of%20October%202023%2C%20there,population%2C%20were%20social%20media%20users)
 
 ## Additional Comments
 Provide your team's additional comments or final remarks for this project. For example,
