@@ -4,6 +4,8 @@
 Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
 
 ## Contributor
+| | |
+| --- | --- | --- | --- | --- |
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | M. Haswin Anugrah Pratama | Startup Campus, AI Track | --- | [link](https://www.linkedin.com/in/haswinpratama/) | Supervisor |
 | Aditia Taqi Pratama | Universitas Negeri Jakarta | aditaqipratama.0608@gmail.com | [link](http://www.linkedin.com/in/aditaqip) | Team Lead |
@@ -39,6 +41,14 @@ Describe your dataset information here. Provide a screenshot for some of your da
 ## Results
 ### Model Performance
 Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
+![results](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/910b66f4-a0c9-4c5d-8369-9fbf70734bea)
+![confusion_matrix](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/f7edb61e-f38a-43b7-aebe-18924fe34561)
+![confusion_matrix_yolov5](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/71f8461e-8dd6-4163-a068-61d03b34a556)
+![confusion_matrix_yolo7](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/fd183f3e-ee3b-4b6a-aadd-99de6ec59c22)
+![PR_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/bb854481-ea16-42c7-9745-3a1018b52eb1)
+![R_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/9c4653ce-7e6b-46c7-bccf-dfe155d11f3d)
+![Precision_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/3d89251b-c2bf-4775-8194-d1895a76e652)
+
 
 #### 1. Metrics
 Inform your model validation performances, as follows:
