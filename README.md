@@ -106,6 +106,7 @@ Provide all links that support this final project, i.e., papers, GitHub reposito
 - Link: [https://...](https://ieeexplore.ieee.org/Xplore/home.jsp)
 - Link: [https://...](https://www.annualreports.com/HostedData/AnnualReportArchive/r/NYSE_RBS_2018.pdf)
 - Link: [[https://...](https://www.statista.com/statistics/617136/digital-population-worldwide/#:~:text=Worldwide%20digital%20population%202023&text=As%20of%20October%202023%2C%20there,population%2C%20were%20social%20media%20users)
+- Link: [[https://...](https://github.com/thepbordin/YOLOv5-Streamlit-Deployment)
 
 ## Additional Comments
 Provide your team's additional comments or final remarks for this project. For example,
