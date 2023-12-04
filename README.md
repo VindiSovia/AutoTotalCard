@@ -1,7 +1,10 @@
 # “Auto Total Card” Keranjang Penghitung Otomatis
 
 ## Project Description
-Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
+“Auto Total Card” Keranjang Penghitung Otomatis is a system for efficiency and effectiveness in the retail business world, where this system can be implemented easily by every customer. Queues besides ruining the mood, queues also have quite a big financial impact on the retail world.
+According to the results of several studies in Indonesia, as many as 26% of shop customers are reluctant to go to the shop again because the queues are quite long and not only that, the retail industry also loses several% of its customers, resulting in losses of 311 billion/year.
+With these problems, we want to create an innovation that can help to solve the problem by creating an auto total card cart automatic counting project.
+And the way this system works is that the customer goes to the mall/fruit shop then the customer chooses what fruit they want to consume and use, then the customer can directly scan the purchases that are already in their basket and input them into the system that we have created and the price will be returned. Each fruit can then scan the barcode to make payments using e-wallet
 
 ## Contributor
 | Full Name                | Affiliation                       | Email                          | LinkedIn                                       | Role          |
@@ -16,12 +19,35 @@ Please describe your Startup Campus final project here. You may should your <b>m
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
-- pandas==2.1.0
-- openai==0.28.0
-- google-cloud-aiplatform==1.34.0
-- google-cloud-bigquery==3.12.0
-- ...
-- ...
+# Base ----------------------------------------
+- matplotlib>=3.2.2
+- numpy>=1.18.5
+- opencv-python
+- Pillow>=7.1.2
+- PyYAML>=5.3.1
+- requests>=2.23.0
+- scipy>=1.4.1  # Google Colab version
+- torch>=1.7.0
+- torchvision>=0.8.1
+- tqdm>=4.41.0
+- protobuf<4.21.5  # https://github.com/ultralytics/yolov5/issues/8012
+- ultralytics
+# Logging -------------------------------------
+- tensorboard>=2.4.1
+# Plotting ------------------------------------
+- pandas>=1.1.4
+- seaborn>=0.11.0
+# Extras --------------------------------------
+- ipython  # interactive notebook
+- psutil  # system utilization
+- thop  # FLOPs computation
+- streamlit
+- wget
+- ffmpeg-python
+- pyngrok
+- streamlit_webrtc
+- qrcode[pil]
+- python-barcode
 
 ### Environment
 | | |
@@ -42,15 +68,12 @@ Describe all results found in your final project experiments, including hyperpar
 ![results](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/910b66f4-a0c9-4c5d-8369-9fbf70734bea)
 ![confusion_matrix_yolov5](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/71f8461e-8dd6-4163-a068-61d03b34a556)
 ![confusion_matrix_yolo7](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/fd183f3e-ee3b-4b6a-aadd-99de6ec59c22)
-![PR_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/bb854481-ea16-42c7-9745-3a1018b52eb1)
-![R_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/9c4653ce-7e6b-46c7-bccf-dfe155d11f3d)
-![Precision_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/3d89251b-c2bf-4775-8194-d1895a76e652)
-
 
 #### 1. Metrics
 Inform your model validation performances, as follows:
 - For classification tasks, use **Precision and Recall**.
 - For object detection tasks, use **Precision and Recall**. Additionaly, you may also use **Intersection over Union (IoU)**.
+  ![PR_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/bb854481-ea16-42c7-9745-3a1018b52eb1)
 - For image retrieval tasks, use **Precision and Recall**.
 - For optical character recognition (OCR) tasks, use **Word Error Rate (WER) and Character Error Rate (CER)**.
 - For adversarial-based generative tasks, use **Peak Signal-to-Noise Ratio (PNSR)**. Additionally, for specific GAN tasks,
@@ -76,12 +99,34 @@ Any improvements or modifications of your base model, should be summarized in th
 
 #### 3. Training/Validation Curve
 Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
- 
+![R_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/9c4653ce-7e6b-46c7-bccf-dfe155d11f3d)
+![Precision_curve](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/3d89251b-c2bf-4775-8194-d1895a76e652)
+![results](https://github.com/VindiSovia/AutoTotalCard/assets/105348760/910b66f4-a0c9-4c5d-8369-9fbf70734bea)
+
 ### Testing
 Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
+![data10](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/20a951ce-f5d7-49de-b506-e01f4bb40ed8)
+![data9](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/ee22b9fc-2010-4da2-9b50-d33660c56330)
+![data8](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/a60b84eb-9cbc-4bed-b554-d2d013af0029)
+![data7](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/40601f54-4dfa-48db-b90e-835314fd55d1)
+![data6](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/8771d155-fca0-4e6a-ab7a-11641b569031)
+![data5](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/782afcf0-e43a-497e-8b07-b6564844b31e)
+![data4](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/567143a6-1695-4758-baab-903aaabbd9f2)
+![data3](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/b5a648c9-a4a3-4d2b-8113-5ae01a060c53)
+![data2](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/d7635d0b-55b1-47c2-bdf1-74f071f36f86)
+![WhatsApp Image 2023-12-04 at 14 01 41](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/6da8ccbf-c605-45be-8a09-0d67986be2de)
 
 ### Deployment (Optional)
-Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
+We make an application using the help of Streamlit. An example image will appear below
+![gambar 1](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/0b38efea-e938-4ac5-94af-e8873337045a)
+![gambar 2](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/be50a173-d40f-4f3c-9305-92a898130e6c)
+![gambar 3](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/5dfcca2c-300e-4615-9db2-3a0ef421b9cf)
+![gambar 4](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/e0990c6b-cff0-4279-82a7-fbc1697234d1)
+![gambar 5](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/652b7be8-b0b5-4421-9517-dc8bb68a42b1)
+![gambar 6](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/deccefb4-0d5e-4613-bb49-98a744a6768f)
+![gambar 7](https://github.com/VindiSovia/AutoTotalCard/assets/75414611/8eedf654-b692-47d2-8cc2-aa578f12d222)
+You can find the code in the folder or click the link below
+Link: [https://...](https://colab.research.google.com/drive/1tTNMWKBhLJgvIThMfJNbDYhR1HVYoVLv?usp=sharing)
 
 ## Supporting Documents
 ### Presentation Deck
@@ -126,4 +171,4 @@ If you find this project useful, we'd grateful if you cite this repository:
 For academic and non-commercial use only.
 
 ## Acknowledgement
-This project entitled <b>"YOUR PROJECT TITLE HERE"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
+This project entitled <b>"“Auto Total Card” Keranjang Penghitung Otomatis"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
